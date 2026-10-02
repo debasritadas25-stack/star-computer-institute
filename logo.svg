@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Star Computer Institute">
+  <defs>
+    <linearGradient id="starFill" x1="18%" y1="8%" x2="82%" y2="92%">
+      <stop offset="0%" stop-color="#3aa0ff"/>
+      <stop offset="45%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#0b3f9a"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4db3ff"/>
+      <stop offset="100%" stop-color="#0a4dad"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="#fff" stroke="url(#ring)" stroke-width="8"/>
+  <g transform="translate(98 108)">
+    <polygon points="0,-62 18,-14 68,-14 27,14 43,62 0,34 -43,62 -27,14 -68,-14 -18,-14" fill="url(#starFill)"/>
+    <ellipse cx="6" cy="2" rx="62" ry="20" fill="none" stroke="#0b3f9a" stroke-width="11" transform="rotate(-28)"/>
+    <ellipse cx="6" cy="2" rx="62" ry="20" fill="none" stroke="#4db3ff" stroke-width="5" transform="rotate(-28)"/>
+  </g>
+  <g fill="#1a73e8">
+    <rect x="138" y="38" width="12" height="12" rx="1.5"/>
+    <rect x="153" y="50" width="10" height="10" rx="1.5"/>
+    <rect x="164" y="38" width="8" height="8" rx="1.5"/>
+    <rect x="172" y="52" width="7" height="7" rx="1"/>
+  </g>
+</svg>
